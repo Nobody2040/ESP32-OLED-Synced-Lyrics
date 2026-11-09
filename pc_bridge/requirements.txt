@@ -1,0 +1,3 @@
+requests>=2.31.0
+syncedlyrics>=1.0.1
+winsdk>=1.0.0b10

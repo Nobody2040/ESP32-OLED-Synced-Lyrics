@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="100%" height="100%">
+  <rect width="760" height="360" fill="#121417" rx="12"/>
+  <text x="380" y="38" fill="#e6edf3" font-family="Consolas, monospace" font-size="18" font-weight="bold" text-anchor="middle">ESP32 + 0.96" SSD1306 I2C OLED Hardware Schematic</text>
+
+  <!-- ESP32 Module -->
+  <rect x="60" y="75" width="210" height="220" fill="#1e232a" stroke="#3b82f6" stroke-width="2.5" rx="8"/>
+  <text x="165" y="108" fill="#60a5fa" font-family="Consolas, monospace" font-size="16" font-weight="bold" text-anchor="middle">ESP32 DevKit V1</text>
+  <text x="165" y="128" fill="#8b949e" font-family="Consolas, monospace" font-size="12" text-anchor="middle">(U1 - 30/38 Pin)</text>
+
+  <!-- ESP32 Pins -->
+  <circle cx="270" cy="155" r="4" fill="#ef4444"/>
+  <text x="255" y="159" fill="#f87171" font-family="Consolas, monospace" font-size="13" font-weight="bold" text-anchor="end">3V3</text>
+
+  <circle cx="270" cy="190" r="4" fill="#a3a3a3"/>
+  <text x="255" y="194" fill="#d4d4d4" font-family="Consolas, monospace" font-size="13" font-weight="bold" text-anchor="end">GND</text>
+
+  <circle cx="270" cy="225" r="4" fill="#facc15"/>
+  <text x="255" y="229" fill="#fde047" font-family="Consolas, monospace" font-size="13" font-weight="bold" text-anchor="end">GPIO 22 (SCL)</text>
+
+  <circle cx="270" cy="260" r="4" fill="#22c55e"/>
+  <text x="255" y="264" fill="#4ade80" font-family="Consolas, monospace" font-size="13" font-weight="bold" text-anchor="end">GPIO 21 (SDA)</text>
+
+  <!-- OLED Module -->
+  <rect x="490" y="75" width="210" height="220" fill="#1e232a" stroke="#10b981" stroke-width="2.5" rx="8"/>
+  <text x="595" y="108" fill="#34d399" font-family="Consolas, monospace" font-size="16" font-weight="bold" text-anchor="middle">SSD1306 OLED</text>
+  <text x="595" y="128" fill="#8b949e" font-family="Consolas, monospace" font-size="12" text-anchor="middle">0.96" 128x64 I2C (0x3C)</text>
+
+  <!-- OLED Screen Preview Box -->
+  <rect x="520" y="145" width="150" height="125" fill="#090b0d" stroke="#30363d" stroke-width="1.5" rx="4"/>
+
+  <!-- OLED Pins -->
+  <circle cx="490" cy="155" r="4" fill="#ef4444"/>
+  <text x="505" y="159" fill="#f87171" font-family="Consolas, monospace" font-size="13" font-weight="bold">VCC</text>
+
+  <circle cx="490" cy="190" r="4" fill="#a3a3a3"/>
+  <text x="505" y="194" fill="#d4d4d4" font-family="Consolas, monospace" font-size="13" font-weight="bold">GND</text>
+
+  <circle cx="490" cy="225" r="4" fill="#facc15"/>
+  <text x="505" y="229" fill="#fde047" font-family="Consolas, monospace" font-size="13" font-weight="bold">SCL</text>
+
+  <circle cx="490" cy="260" r="4" fill="#22c55e"/>
+  <text x="505" y="264" fill="#4ade80" font-family="Consolas, monospace" font-size="13" font-weight="bold">SDA</text>
+
+  <!-- Wires -->
+  <line x1="270" y1="155" x2="490" y2="155" stroke="#ef4444" stroke-width="2.5"/>
+  <text x="380" y="148" fill="#f87171" font-family="Consolas, monospace" font-size="11" text-anchor="middle">3.3V Power</text>
+
+  <line x1="270" y1="190" x2="490" y2="190" stroke="#9ca3af" stroke-width="2.5"/>
+  <text x="380" y="183" fill="#d1d5db" font-family="Consolas, monospace" font-size="11" text-anchor="middle">Common Ground</text>
+
+  <line x1="270" y1="225" x2="490" y2="225" stroke="#facc15" stroke-width="2.5"/>
+  <text x="380" y="218" fill="#fde047" font-family="Consolas, monospace" font-size="11" text-anchor="middle">I2C Clock (400kHz)</text>
+
+  <line x1="270" y1="260" x2="490" y2="260" stroke="#22c55e" stroke-width="2.5"/>
+  <text x="380" y="253" fill="#4ade80" font-family="Consolas, monospace" font-size="11" text-anchor="middle">I2C Data</text>
+
+  <text x="380" y="330" fill="#8b949e" font-family="Consolas, monospace" font-size="12" text-anchor="middle">Note: Built-in 4.7kΩ I2C pull-up resistors are included on standard SSD1306 breakout modules.</text>
+</svg>

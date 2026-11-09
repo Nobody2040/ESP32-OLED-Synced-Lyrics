@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Arduino / PlatformIO
+*.bin
+*.elf
+*.map
+build/
+.pio/
+
+# KiCad temporary files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+fp-info-cache
